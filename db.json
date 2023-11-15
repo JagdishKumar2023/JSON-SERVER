@@ -1,0 +1,9 @@
+{
+  "TodoList": [
+    { "id": 1, "todo": "buy silk", "isCompleted": false },
+    { "id": 2, "todo": "go to market", "isCompleted": false },
+    { "id": 3, "todo": "clean bike", "isCompleted": false },
+    { "id": 4, "todo": "repair cellphone", "isCompleted": false },
+    { "id": 5, "todo": "buy sweet", "isCompleted": false }
+  ]
+}
