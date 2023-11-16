@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?quality=82&strip=all&w=1600");
+}
+
+.searchWeather {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+#submitCity {
+  padding: 2px 15px;
+  border-radius: 8px;
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+#temperature {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}

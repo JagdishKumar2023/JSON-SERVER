@@ -3,11 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>json-server</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>weather-app</title>
   </head>
   <body>
     <div class="container">
-      <div id="todo"></div>
+      <div class="searchWeather">
+        <h1>Weather app</h1>
+        <input
+          type="search"
+          placeholder="enter city name"
+          value=""
+          id="searchCity"
+        />
+        <button id="submitCity">Search</button>
+      </div>
+      <div id="temperature"></div>
     </div>
   </body>
 </html>
